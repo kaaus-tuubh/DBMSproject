@@ -1,0 +1,78 @@
+.container{
+	height:100%;
+}
+.btn{
+    cursor: pointer;
+    width: 10%;
+    height: 50px;
+    border: none;
+    background-color: #7ab588;
+    color: white;
+    opacity: 0.9;
+}/*
+button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}*/
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.back{
+	margin-top: 100px;
+    background-color:lightgrey;
+    padding-top: 125px;
+    padding-bottom: 0px;
+}
+.bg{
+	background-color:#f2f2f2;
+}
+.row{
+	padding-top: 22px;
+    margin-bottom: 12px;
+}
+placeholder{
+	bottom: 4px;
+    color: rgba(0,0,0,0.42);
+    left: 13px;
+    right: 13px;
+    top: 4px;
+}
+.input-tag input{
+	width: 48%;
+    background-color: white;
+    height: 55px;
+    outline: none;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: inset;
+    border: aliceblue;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.icon input{
+	height:15px;
+    width:26px;
+	margin-top:10px;
+}
+.link-1 a{
+	font-size: 14px;
+    
+    line-height: 90px;
+    color: inherit;
+	outline: none;
+    position: relative;
+	text-decoration: none;
+}
